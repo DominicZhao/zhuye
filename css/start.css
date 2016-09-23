@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.diyiye{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999991;
+    transition: all 2s ease 4s;
+}
+#canvas{
+    background: #212121;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+.jq22-content{
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 100px;
+    z-index: 222;
+}
+.jq22-content p{
+    color: #fff;
+    font-size: 20px;
+}
+.dianji{
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(247,9,70,.6);
+    position: absolute;
+    top:550px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 3333;
+    text-align: center;
+    line-height: 60px;
+}
+.dianji a{
+    color: #fff;
+    text-decoration: none;
+}
